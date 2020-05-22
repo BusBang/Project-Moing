@@ -1,0 +1,131 @@
+@charset "UTF-8";
+/*
+
+white
+#f0e0c0
+#ff9742
+#204000
+#808060
+#404020
+black
+
+*/
+
+/*크기는 최대한 그대로 두되, 필요할 경우에만 따로 스타일에서 크기 변경(최대한 길이만 변경)하기로 해여~~~*/
+
+
+
+.btn-xsm-orange1{/*작은 오렌지 테두리 버튼*/
+     width: 70px;
+    height: 35px;
+    line-height: 35px;
+    text-align: center;
+    border: 2px solid #ff9742;
+    border-radius: 10px;
+    font-size:11px;
+}
+.btn-xsm-orange2{/*작은 오렌지 바탕 버튼*/
+     width: 70px;
+    height: 35px;
+    line-height: 35px;
+    text-align: center;
+   background-color:  #ff9742;
+    border-radius: 10px;
+    font-size:11px;
+}
+.btn-xsm-green1{/*작은 녹색 테두리 버튼*/
+     width: 70px;
+    height: 35px;
+    line-height: 35px;
+    text-align: center;
+    border: 2px solid #404020;
+    border-radius: 10px;
+    font-size:11px;
+}
+.btn-xsm-green2{/*작은 녹색 바탕 버튼*/
+     width: 70px;
+    height: 35px;
+    line-height: 35px;
+    text-align: center;
+    background-color:  #404020;
+    border-radius: 10px;
+    color: white;
+    font-size:11px;
+}
+
+.btn-sm-orange1{/*짧은 오렌지 테두리 버튼*/
+    width: 125px;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+    border: 2px solid #ff9742;
+    border-radius: 10px;
+}
+.btn-long-orange1{/*긴 오렌지 테두리 버튼*/
+     width: 280px;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+    border: 2px solid #ff9742;
+    border-radius: 10px;
+}
+.btn-sm-orange2{/*짧은 오렌지 바탕 버튼*/
+     width: 125px;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+    background-color:  #ff9742;
+    border-radius: 10px;
+}
+.btn-long-orange2{/*긴 오렌지 바탕 버튼*/
+     width: 280px;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+    background-color:  #ff9742;
+    border-radius: 10px;
+}
+
+
+.btn-sm-green1{/*짧은 진녹색 테두리 버튼*/
+     width: 125px;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+    border: 2px solid #404020;
+    border-radius: 10px;
+}
+.btn-long-green1{/*긴 진녹색 테두리 버튼*/
+     width: 280px;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+    border: 2px solid #404020;
+    border-radius: 10px;
+}
+.btn-sm-green2{/*짧은 진녹색 바탕 버튼*/
+     width: 125px;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+    background-color:  #ff9742;
+    border-radius: 10px;
+     color: white;
+}
+.btn-long-green2{/*긴 진녹색 바탕 버튼*/
+    width: 280px;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+    background-color:  #ff9742;
+    border-radius: 10px;
+     color: white;
+}
+
+
+
+
+
+
+
+

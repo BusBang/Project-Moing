@@ -1,0 +1,84 @@
+@charset "UTF-8";
+
+/*
+
+white
+#f0e0c0
+#ff9742
+#204000
+#808060
+#404020
+black
+
+*/
+
+/*배경색*/
+.bg-0{
+    background-color: white;
+}
+.bg-1{
+    background-color: #f0e0c0;
+}
+.bg-2{
+    background-color: #ff9742;
+}
+.bg-3{
+    background-color: #204000;
+}
+.bg-4{
+    background-color: #808060;
+}
+.bg-5{
+    background-color: #404020;
+}
+.bg-6{
+    background-color: black;
+}
+
+/*글자색*/
+.font-color0{
+    color: white;
+}
+.font-color1{
+    color: #f0e0c0;
+}
+.font-color2{
+    color: #ff9742;
+}
+.font-color3{
+    color: #204000;
+}
+.font-color4{
+    color: #808060;
+}
+.font-color5{
+    color: #404020;
+}
+.font-color6{
+    color: black;
+}
+
+/*테두리 색*/
+.boder-color0{
+    border-color: white;
+}
+.boder-color1{
+    border-color: #f0e0c0;
+}
+.boder-color2{
+    border-color: #ff9742;
+}
+.boder-color3{
+    border-color: #204000;
+}
+.boder-color4{
+    border-color: #808060;
+}
+.boder-color5{
+    border-color: #404020;
+}
+.boder-color6{
+    border-color: black;
+}
+
+

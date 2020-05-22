@@ -1,0 +1,48 @@
+@charset "UTF-8";
+
+/*
+
+white
+#f0e0c0
+#ff9742
+#204000
+#808060
+#404020
+black
+
+*/
+
+
+/*section*/
+.container{
+    width: 100%;
+    overflow: hidden;
+}
+
+
+/*기본 폼*/
+.form-origin{
+    width: 90%;
+    margin: 0 auto;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+/*폼 위 아래에 라인*/
+.form-orange-line{/*오렌지*/
+    border-bottom: 2px solid #ff9742;
+    border-top: 2px solid #ff9742;
+}
+.form-green-line{/*진녹색(*/
+    border-bottom: 2px solid #404020;
+    border-top: 2px solid #404020;
+}
+
+
+
+/*인풋 기본*/
+.input-origin{
+    border: 1px solid gray;
+    border-radius: 5px;
+    height: 25px;
+}

@@ -1,0 +1,59 @@
+package login.controller;
+
+import java.io.IOException;
+import java.io.PrintWriter;
+
+import javax.servlet.RequestDispatcher;
+import javax.servlet.ServletException;
+import javax.servlet.annotation.WebServlet;
+import javax.servlet.http.HttpServlet;
+import javax.servlet.http.HttpServletRequest;
+import javax.servlet.http.HttpServletResponse;
+
+import org.json.simple.JSONObject;
+
+import login.model.service.LoginService;
+import login.model.vo.LoginMember;
+
+/**
+ * Servlet implementation class MailCodeAjaxServlet
+ */
+@WebServlet(name = "MailCodeAjax", urlPatterns = { "/mailCodeAjax" })
+public class MailCodeAjaxServlet extends HttpServlet {
+	private static final long serialVersionUID = 1L;
+       
+    /**
+     * @see HttpServlet#HttpServlet()
+     */
+    public MailCodeAjaxServlet() {
+        super();
+        // TODO Auto-generated constructor stub
+    }
+
+	/**
+	 * @see HttpServlet#doGet(HttpServletRequest request, HttpServletResponse response)
+	 */
+    
+    //메일 인증 ajax (메일아이디가 회원가입되어있는지 확인하는 servlet)
+	protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
+		String memberEmail = request.getParameter("memberEmail");
+		LoginMember m = new LoginService().idSearch(memberEmail);
+		System.out.println(m);
+		JSONObject result = new JSONObject();
+		result.put("idSearchId", m.getMemberId());
+		response.setContentType("application/json");
+		PrintWriter out = response.getWriter();
+		out.print(result);
+		out.flush();
+		out.close();
+	}
+
+	/**
+	 * @see HttpServlet#doPost(HttpServletRequest request, HttpServletResponse response)
+	 */
+	protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
+		// TODO Auto-generated method stub
+		doGet(request, response);
+	}
+
+}

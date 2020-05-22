@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<style>
+    body{
+        width: 1280px;
+        margin: 0 auto;
+        }
+    section tr{
+        height: 40px;
+    }
+    section table{
+        width: 70%;
+        border-bottom: 2px solid #ff9742;
+        border-top: 2px solid #ff9742;
+        margin: 0 auto;
+    }
+    section th{
+        text-align: left;
+        padding: 5px;
+    }
+    section h1{
+        text-align: center;
+    }
+    section .title{
+        border: 1px solid #f0e0c0;
+        border-left: none;
+        border-right: none;
+        border-top: none;
+    }
+
+    section .content{
+        border: 1px solid #f0e0c0;
+        border-left: none;
+        border-right: none;
+        border-bottom: none;
+        box-sizing: 
+    }
+    a{
+        text-decoration: none;
+    }
+    </style>
+    <script>
+        /*$(function(){
+            $("tr").child("th").eq(0).css("width","20%");
+        })*/
+    </script>
+    
+<body>
+    <jsp:include page="/WEB-INF/views/common/header.jsp"></jsp:include>
+	<section>
+        <h1>내가 좋아요한 모임</h1>
+        <table>
+            <tr>
+                <th class="title"></th>
+                <th class="title">모임명</th>
+            </tr>
+            <tr>
+                <td class="content">1</td>
+                <td class="content"></td>
+            </tr>
+            <tr>
+                <td class="content">1</td>
+                <td class="content"></td>
+            </tr>
+        </table>
+    </section>
+    <jsp:include page="/WEB-INF/views/common/footer.jsp"></jsp:include>
+<body>
+
+</html>

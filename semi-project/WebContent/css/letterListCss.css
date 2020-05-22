@@ -1,0 +1,172 @@
+@charset "UTF-8";
+
+
+.container{
+    width: 1280px;
+    margin: auto;
+}
+.letter-wrapper{
+    width: 85%;
+    margin: 0 auto;
+
+}
+.vv{
+    position: absolute;
+}
+.pageMainTitle{
+    font-size: 32px;
+    color: #404020;
+    font-weight: 700;
+    margin-left: 50px;
+   
+    
+}
+.pageSubTitle{
+    font-size: 24px;
+    color: #808060;
+    font-weight: 700;
+    margin-left: 30px;
+    margin-top: 15px;
+}
+.letterBtn{
+    width: 100%;
+    margin-top: 30px;
+    overflow: hidden;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.letterList, .meetingList, .myPlaceList{
+    margin: 100px auto;
+    width: 80%;
+}
+.btn-long-orange1{
+
+    margin-left: 10px;
+    margin-right: 10px;
+    width: 250px;
+    height: 40px;
+    line-height: 40px;
+    display: inline-block;
+}
+.btn-long-orange1>a{
+    text-decoration: none;
+    text-align: center;
+    color: #808060;
+    font-weight: 700;
+    display: block;
+}
+.letters, .meetings, .places{
+    width: 90%;
+    text-align: center;
+    margin: 50px auto;
+}
+.letters>table, #mymeetings, #myPlace{
+    width: 100%;
+    border-top: 3px solid #ff9742;
+    border-bottom: 3px solid #ff9742;
+    
+}
+.bookingTable{
+    width: 100%;
+    border-top: 3px solid #204000;
+    border-bottom: 3px solid #204000;
+}
+
+
+
+th{
+    font-size: 18px;
+    
+}
+td{
+    font-size: 14px;
+    
+}
+
+
+
+
+.searchGetDiv, .searchSendDiv{
+    clear: left;
+margin-top: 20px;
+height: 40px;
+line-height: 40px;
+}
+
+select{
+height: 30px;
+border: 1px solid gray;
+border-radius: 5px;
+}
+.searchBtn{
+    line-height: 25px;
+    color: #f0e0c0;
+    font-weight: 700;
+}
+.titleBlock{
+    		text-decoration: none;
+             color: black;
+             display: block;
+    	}
+
+/*
+.or1{
+    background-color: #ff9742;
+}
+
+#sendLetters{
+    display: none;
+}
+#letterPageNaviSend{
+    display: none;
+}
+*/
+/*
+.searchSendDiv{
+    display: none;
+}
+*/
+
+
+.focusBtn{
+    background-color: #ff9742;
+}
+
+
+
+
+
+
+.letterNavi{
+    margin-top: 40px;
+}
+
+.sideNavi>a, .numNavi>a {
+    text-decoration: none;
+    text-align: center;
+    display: inline-block;
+    font-size: 18px;
+    color: #204000;
+    font-weight: 700;
+    height: 30px;
+    width: 30px;
+    height: 30px;
+    line-height: 30px;
+}
+.numNavi{
+    width: 30px;
+    height: 30px;
+    margin-left: 2px;
+    margin-right: 2px;
+}
+.numNavi>span{
+    font-size: 18px;
+    color: #204000;
+    font-weight: 700;
+    width: 30px;
+    height: 30px;
+    
+}
+   
+        
