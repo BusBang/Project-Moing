@@ -142,6 +142,7 @@
 	}
 </script>
 <body>
+<h1>안녕 난 깃 테스트야</h1>
 <jsp:include page="/WEB-INF/views/common/header.jsp"></jsp:include>
 	<section>
         <p id="titleTag">5월 가정의달을 맞아 즐거운 모임을 가져보세요</p>
